@@ -1,4 +1,4 @@
-# ayoub-elassri-zsh
+# e52420 zsh config
 
 #Zsh install with pulgins and themes
 
