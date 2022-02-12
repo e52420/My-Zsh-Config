@@ -1,6 +1,6 @@
-# e52420 zsh config
+# My Zsh Config
 
-#Zsh install with pulgins and themes
+## Zsh install with pulgins and themes
 
 ```bash
 sudo pacman -S zsh
@@ -22,15 +22,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 ```bash
  git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
-```
-
-Starship prompt ->
-```bash
-sh -c "$(curl -fsSL https://starship.rs/install.sh)"
-```
-
-Now add all the plugins to the .zshrc file. For the starship prompt add this
-
-```bash
-eval "$(starship init zsh)"
 ```
